@@ -1,0 +1,17 @@
+<svg viewBox="0 0 500 180" xmlns="http://www.w3.org/2000/svg">
+  <!-- Concentric circles symbol -->
+  <g transform="translate(60, 90)">
+    <circle cx="0" cy="0" r="40" fill="none" stroke="#D97834" stroke-width="6"/>
+    <circle cx="0" cy="0" r="30" fill="none" stroke="#D97834" stroke-width="6"/>
+    <circle cx="0" cy="0" r="20" fill="none" stroke="#D97834" stroke-width="6"/>
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#D97834" stroke-width="6"/>
+    <circle cx="0" cy="0" r="3" fill="#D97834"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="120" y="85" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#5C3D2E">DAILY</text>
+  <text x="120" y="125" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#5C3D2E">NAAM JAP</text>
+  
+  <!-- Tagline -->
+  <text x="120" y="150" font-family="Arial, sans-serif" font-size="16" fill="#8B6A4F">Your spiritual practice companion</text>
+</svg>

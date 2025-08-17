@@ -1,0 +1,35 @@
+{
+  "name": "DailyNaamJap - Spiritual Chanting Counter",
+  "short_name": "DailyNaamJap",
+  "description": "Free spiritual chanting counter app for Hindu and Sikh devotional practices. Track your daily naam jaap and malas with our digital mala counter.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "orientation": "portrait",
+  "categories": ["lifestyle", "health", "education"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "scope": "/",
+  "features": [
+    "108 bead mala counting",
+    "6 deity mantras",
+    "Dark and light mode",
+    "Offline functionality",
+    "Vibration feedback"
+  ]
+}

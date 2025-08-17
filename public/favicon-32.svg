@@ -1,0 +1,12 @@
+<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect x="0" y="0" width="32" height="32" fill="#F5E6D3"/>
+  
+  <!-- Concentric circles -->
+  <g transform="translate(16, 16)">
+    <circle cx="0" cy="0" r="11" fill="none" stroke="#D97834" stroke-width="2"/>
+    <circle cx="0" cy="0" r="7.5" fill="none" stroke="#D97834" stroke-width="2"/>
+    <circle cx="0" cy="0" r="4" fill="none" stroke="#D97834" stroke-width="2"/>
+    <circle cx="0" cy="0" r="1" fill="#D97834"/>
+  </g>
+</svg>

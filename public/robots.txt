@@ -1,0 +1,19 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://naamjaap.app/sitemap.xml
+
+# SEO-friendly paths
+Allow: /about
+Allow: /benefits
+Allow: /faq
+Allow: /contact
+
+# Block unnecessary crawling
+Disallow: /api/
+Disallow: /_next/
+Disallow: /static/
+
+# Crawl delay (optional)
+Crawl-delay: 1
