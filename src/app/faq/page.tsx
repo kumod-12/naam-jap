@@ -5,13 +5,27 @@ export default function FAQ() {
   return (
     <>
       <Head>
-        <title>FAQ - Naam Jaap App Questions & Answers | सामान्य प्रश्न</title>
-        <meta name="description" content="Frequently asked questions about Naam Jaap app, mala counting, spiritual practice, and app features. Get answers to common queries." />
-        <meta name="keywords" content="naam jaap FAQ, mala counter questions, spiritual app help, chanting app guide" />
-        <link rel="canonical" href="/faq" />
-        <meta property="og:title" content="FAQ - Naam Jaap App Questions & Answers" />
-        <meta property="og:description" content="Get answers to frequently asked questions about Naam Jaap app and spiritual practice." />
-        <meta property="og:url" content="/faq" />
+        <title>DailyNaamJap FAQ - Common Questions & Answers About Digital Mala</title>
+        <meta name="description" content="Get answers about DailyNaamJap digital mala counter: How 108-bead counting works, data storage, offline functionality, PWA installation, deity mantras, daily goals & more. Complete FAQ guide." />
+        <meta name="keywords" content="DailyNaamJap FAQ, digital mala counter questions, naam jaap app help, 108 beads explanation, spiritual app guide, mala counting help, mantra chanting questions, PWA installation guide" />
+        <link rel="canonical" href="https://dailynaamjap.vercel.app/faq" />
+        <meta property="og:title" content="DailyNaamJap FAQ - Common Questions & Answers About Digital Mala" />
+        <meta property="og:description" content="Get answers about DailyNaamJap: How 108-bead counting works, data storage, offline functionality, PWA installation & more. Complete FAQ guide." />
+        <meta property="og:url" content="https://dailynaamjap.vercel.app/faq" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="DailyNaamJap FAQ - Questions and Answers" />
+        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dailynaamjap" />
+        <meta name="twitter:creator" content="@dailynaamjap" />
+        <meta name="twitter:title" content="DailyNaamJap FAQ - Digital Mala Counter Help & Guide" />
+        <meta name="twitter:description" content="Common questions answered: 108-bead counting, data storage, offline use, PWA installation & more. Get help with your spiritual practice." />
+        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 py-8 px-4">

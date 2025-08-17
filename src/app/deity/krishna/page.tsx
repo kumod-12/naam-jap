@@ -5,14 +5,27 @@ export default function KrishnaPage() {
   return (
     <>
       <Head>
-        <title>Krishna Naam Jaap - हरे कृष्ण हरे कृष्ण | Hare Krishna Mantra</title>
-        <meta name="description" content="Chant हरे कृष्ण हरे कृष्ण (Hare Krishna Hare Krishna) with our digital mala counter. Experience the divine love of Lord Krishna through sacred naam jaap." />
-        <meta name="keywords" content="Krishna naam jaap, हरे कृष्ण, Hare Krishna, Krishna mantra, Lord Krishna chanting, कृष्ण जप, ISKCON mantra" />
-        <link rel="canonical" href="/deity/krishna" />
-        <meta property="og:title" content="Krishna Naam Jaap - हरे कृष्ण हरे कृष्ण" />
-        <meta property="og:description" content="Chant Lord Krishna's sacred mantra with digital mala counter. Experience divine love and bliss." />
-        <meta property="og:url" content="/deity/krishna" />
-        <meta property="og:image" content="/images/krishna-deity.jpg" />
+        <title>Krishna Naam Jaap - हरे कृष्ण हरे कृष्ण | Hare Krishna Mantra | Digital Mala</title>
+        <meta name="description" content="Chant हरे कृष्ण हरे कृष्ण (Hare Krishna Hare Krishna) with our free digital mala counter. Experience divine love, spiritual bliss & Lord Krishna's grace. ISKCON approved Mahamantra chanting." />
+        <meta name="keywords" content="Krishna naam jaap, हरे कृष्ण, Hare Krishna, Krishna mantra, Lord Krishna chanting, कृष्ण जप, ISKCON mantra, Mahamantra, Govinda, Gopala, Bhagavad Gita, Vrindavan, divine love, spiritual bliss" />
+        <link rel="canonical" href="https://dailynaamjap.vercel.app/deity/krishna" />
+        <meta property="og:title" content="Krishna Naam Jaap - हरे कृष्ण Mahamantra | Digital Mala Counter" />
+        <meta property="og:description" content="Experience divine love through Krishna's sacred Mahamantra. Free digital mala counter for ISKCON approved chanting. Perfect for spiritual bliss & bhakti yoga." />
+        <meta property="og:url" content="https://dailynaamjap.vercel.app/deity/krishna" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Hare Krishna Naam Jaap - Digital Mala Counter for Mahamantra" />
+        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dailynaamjap" />
+        <meta name="twitter:creator" content="@dailynaamjap" />
+        <meta name="twitter:title" content="Hare Krishna Mahamantra - हरे कृष्ण | Free Digital Mala" />
+        <meta name="twitter:description" content="Chant the divine Mahamantra with our free digital mala counter! Experience Krishna's love & spiritual bliss through sacred naam jaap." />
+        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{

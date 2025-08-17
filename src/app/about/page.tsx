@@ -5,13 +5,27 @@ export default function About() {
   return (
     <>
       <Head>
-        <title>About Naam Jaap App - Spiritual Chanting Counter | नाम जप के बारे में</title>
-        <meta name="description" content="Learn about Naam Jaap app features, spiritual benefits, and how this digital mala counter supports your devotional practice." />
-        <meta name="keywords" content="about naam jaap, spiritual app features, mala counter benefits, devotional practice app" />
-        <link rel="canonical" href="/about" />
-        <meta property="og:title" content="About Naam Jaap App - Spiritual Chanting Counter" />
-        <meta property="og:description" content="Learn about Naam Jaap app features and spiritual benefits." />
-        <meta property="og:url" content="/about" />
+        <title>About DailyNaamJap - Digital Mala Counter Features & Benefits</title>
+        <meta name="description" content="Discover DailyNaamJap's powerful features: 108-bead digital mala counter, 6 deity mantras (Ram, Krishna, Radhe), bilingual support, dark mode, offline functionality & PWA. Perfect for Hindu & Sikh devotional practices." />
+        <meta name="keywords" content="digital mala counter features, naam jaap app benefits, spiritual chanting app, hindu devotional app, sikh prayer app, 108 beads counter, mantra app features, offline spiritual app" />
+        <link rel="canonical" href="https://dailynaamjap.vercel.app/about" />
+        <meta property="og:title" content="About DailyNaamJap - Digital Mala Counter Features & Benefits" />
+        <meta property="og:description" content="Discover DailyNaamJap's powerful features: 108-bead digital mala counter, 6 deity mantras, bilingual support, dark mode & offline functionality for Hindu & Sikh devotional practices." />
+        <meta property="og:url" content="https://dailynaamjap.vercel.app/about" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="DailyNaamJap App Features and Benefits" />
+        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dailynaamjap" />
+        <meta name="twitter:creator" content="@dailynaamjap" />
+        <meta name="twitter:title" content="About DailyNaamJap - Digital Mala Counter Features" />
+        <meta name="twitter:description" content="Discover DailyNaamJap's powerful features: 108-bead digital mala counter, 6 deity mantras, bilingual support, dark mode & offline functionality." />
+        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-orange-50 to-yellow-50 py-8 px-4">

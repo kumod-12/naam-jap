@@ -6,13 +6,26 @@ export default function SambSadashivPage() {
     <>
       <Head>
         <title>Samb Sadashiv Naam Jaap - शम्भो शंकर नमः शिवाय | Om Namah Shivaya</title>
-        <meta name="description" content="Chant शम्भो शंकर नमः शिवाय (Shambo Shankar Namah Shivaya) with our digital mala counter. Experience the divine power of Lord Shiva through sacred naam jaap." />
-        <meta name="keywords" content="Samb Sadashiv naam jaap, शम्भो शंकर, Shambo Shankar, Om Namah Shivaya, Shiva mantra, महादेव, Mahadev chanting" />
-        <link rel="canonical" href="/deity/samb-sadashiv" />
-        <meta property="og:title" content="Samb Sadashiv Naam Jaap - शम्भो शंकर नमः शिवाय" />
-        <meta property="og:description" content="Chant Lord Shiva's sacred mantra with digital mala counter. Experience divine transformation and spiritual awakening." />
-        <meta property="og:url" content="/deity/samb-sadashiv" />
-        <meta property="og:image" content="/images/shiva-deity.jpg" />
+        <meta name="description" content="Chant शम्भो शंकर नमः शिवाय (Shambo Shankar Namah Shivaya) with our digital mala counter. Experience divine transformation, spiritual awakening & Lord Shiva's powerful blessings. 108-bead counting available." />
+        <meta name="keywords" content="Samb Sadashiv naam jaap, शम्भो शंकर, Shambo Shankar, Om Namah Shivaya, Shiva mantra, महादेव, Mahadev chanting, Shiva meditation, Panchakshara mantra, spiritual transformation, kundalini awakening" />
+        <link rel="canonical" href="https://dailynaamjap.vercel.app/deity/samb-sadashiv" />
+        <meta property="og:title" content="Samb Sadashiv Naam Jaap - शम्भो शंकर नमः शिवाय | Digital Mala" />
+        <meta property="og:description" content="Chant Lord Shiva's sacred mantra with digital mala counter. Experience divine transformation, spiritual awakening & powerful blessings. Free 108-bead counting for Mahadev devotion." />
+        <meta property="og:url" content="https://dailynaamjap.vercel.app/deity/samb-sadashiv" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Samb Sadashiv Shiva Naam Jaap - Digital Mala Counter" />
+        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dailynaamjap" />
+        <meta name="twitter:creator" content="@dailynaamjap" />
+        <meta name="twitter:title" content="Lord Shiva Naam Jaap - शम्भो शंकर नमः शिवाय | Free Digital Mala" />
+        <meta name="twitter:description" content="Experience divine transformation through Shiva's sacred mantra. Free digital mala counter for Mahadev devotion. 108-bead counting available!" />
+        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-indigo-50 py-8 px-4">

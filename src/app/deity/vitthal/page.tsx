@@ -5,14 +5,27 @@ export default function VitthalPage() {
   return (
     <>
       <Head>
-        <title>Vitthal Naam Jaap - विट्ठल विट्ठल | Vitthal Vitthala Mantra</title>
-        <meta name="description" content="Chant विट्ठल विट्ठल (Vitthal Vitthal) with our digital mala counter. Experience the divine grace of Lord Vitthal of Pandharpur through sacred naam jaap." />
-        <meta name="keywords" content="Vitthal naam jaap, विट्ठल विट्ठल, Vitthal Vitthal, Pandharpur, Vitthala mantra, वारकरी, Varkari tradition" />
-        <link rel="canonical" href="/deity/vitthal" />
-        <meta property="og:title" content="Vitthal Naam Jaap - विट्ठल विट्ठल" />
-        <meta property="og:description" content="Chant Lord Vitthal's sacred mantra with digital mala counter. Experience divine blessings and spiritual devotion." />
-        <meta property="og:url" content="/deity/vitthal" />
-        <meta property="og:image" content="/images/vitthal-deity.jpg" />
+        <title>Vitthal Naam Jaap - विट्ठल विट्ठल | Pandharpur Vitthala Mantra | Digital Mala</title>
+        <meta name="description" content="Chant विट्ठल विट्ठल (Vitthal Vitthal) with our free digital mala counter. Experience divine grace of Lord Vitthal of Pandharpur. Perfect for Varkari tradition devotees. 108-bead counting available." />
+        <meta name="keywords" content="Vitthal naam jaap, विट्ठल विट्ठल, Vitthal Vitthal, Pandharpur, Vitthala mantra, वारकरी, Varkari tradition, Pandurang, Maharashtra devotion, Tukaram, Sant tradition, spiritual pilgrimage, divine grace" />
+        <link rel="canonical" href="https://dailynaamjap.vercel.app/deity/vitthal" />
+        <meta property="og:title" content="Vitthal Naam Jaap - विट्ठल Pandurang | Pandharpur Digital Mala" />
+        <meta property="og:description" content="Experience divine grace through Vitthal's sacred mantra. Free digital mala counter for Varkari tradition devotees. Perfect for Pandharpur pilgrims & Maharashtra devotion." />
+        <meta property="og:url" content="https://dailynaamjap.vercel.app/deity/vitthal" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Vitthal Naam Jaap - Digital Mala Counter for Pandharpur Devotion" />
+        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dailynaamjap" />
+        <meta name="twitter:creator" content="@dailynaamjap" />
+        <meta name="twitter:title" content="Vitthal Pandurang Naam Jaap - विट्ठल | Free Digital Mala" />
+        <meta name="twitter:description" content="Chant Vitthal's sacred mantra with digital mala! Perfect for Varkari tradition devotees. Experience Pandharpur's divine grace anywhere." />
+        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-yellow-50 to-orange-50 py-8 px-4">

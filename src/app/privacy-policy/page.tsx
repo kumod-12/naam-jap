@@ -5,13 +5,27 @@ export default function PrivacyPolicy() {
   return (
     <>
       <Head>
-        <title>Privacy Policy - Naam Jaap App | गोपनीयता नीति</title>
-        <meta name="description" content="Privacy policy for Naam Jaap app. Learn how we protect your spiritual practice data and maintain complete privacy." />
-        <meta name="keywords" content="naam jaap privacy policy, spiritual app privacy, data protection, spiritual practice privacy" />
-        <link rel="canonical" href="/privacy-policy" />
-        <meta property="og:title" content="Privacy Policy - Naam Jaap App" />
-        <meta property="og:description" content="Privacy policy for Naam Jaap app and data protection practices." />
-        <meta property="og:url" content="/privacy-policy" />
+        <title>Privacy Policy - DailyNaamJap Data Protection & Security | Complete Privacy</title>
+        <meta name="description" content="DailyNaamJap privacy policy: Complete data protection for your spiritual practice. Local storage only, no tracking, no data collection. Your naam jaap counting remains 100% private & secure." />
+        <meta name="keywords" content="naam jaap privacy policy, spiritual app privacy, data protection, spiritual practice privacy, local storage, no tracking, secure app, private spiritual practice, GDPR compliant, data security" />
+        <link rel="canonical" href="https://dailynaamjap.vercel.app/privacy-policy" />
+        <meta property="og:title" content="Privacy Policy - DailyNaamJap Complete Data Protection" />
+        <meta property="og:description" content="Your spiritual practice stays private! DailyNaamJap uses only local storage, no tracking, no data collection. 100% secure naam jaap counting experience." />
+        <meta property="og:url" content="https://dailynaamjap.vercel.app/privacy-policy" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="DailyNaamJap Privacy Policy - Complete Data Protection" />
+        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dailynaamjap" />
+        <meta name="twitter:creator" content="@dailynaamjap" />
+        <meta name="twitter:title" content="DailyNaamJap Privacy Policy - 100% Private Spiritual Practice" />
+        <meta name="twitter:description" content="Your spiritual data stays private! Local storage only, no tracking, no data collection. Secure & private naam jaap experience." />
+        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 py-8 px-4">

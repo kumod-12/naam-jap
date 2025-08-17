@@ -14,24 +14,64 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DailyNaamJap - Spiritual Chanting Counter App | नाम जप",
-  description: "Free spiritual chanting counter app for Hindu and Sikh devotional practices. Track your daily naam jaap and malas with our digital mala counter.",
-  keywords: "daily naam jaap, chanting counter, mala counter, spiritual app, meditation, hindu prayers, sikh prayers",
-  authors: [{ name: "DailyNaamJap Team" }],
+  title: "DailyNaamJap - Free Digital Mala Counter | Spiritual Chanting App",
+  description: "Free digital mala counter for Hindu & Sikh devotional practices. Track naam jaap with 108-bead counting, 6 deity mantras, dark mode & offline support. Start your spiritual journey today!",
+  keywords: [
+    "digital mala counter",
+    "naam jaap app",
+    "spiritual chanting counter", 
+    "hindu prayer app",
+    "sikh prayer app",
+    "meditation app",
+    "mantra counter",
+    "108 beads",
+    "daily spiritual practice",
+    "devotional app",
+    "free mala counter",
+    "offline spiritual app"
+  ],
+  authors: [{ name: "DailyNaamJap Team", url: "https://dailynaamjap.vercel.app" }],
   creator: "DailyNaamJap",
   publisher: "DailyNaamJap",
-  robots: "index, follow",
+  robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  category: "Lifestyle",
+  classification: "Spiritual & Religious Apps",
   openGraph: {
-    title: "DailyNaamJap - Spiritual Chanting Counter App",
-    description: "Track your spiritual chanting practice with our free naam jaap counter app",
+    type: "website",
+    title: "DailyNaamJap - Free Digital Mala Counter | Spiritual Chanting App",
+    description: "Free digital mala counter for Hindu & Sikh devotional practices. Track naam jaap with 108-bead counting, 6 deity mantras, dark mode & offline support.",
     siteName: "DailyNaamJap",
     locale: "en_US",
-    type: "website",
+    url: "https://dailynaamjap.vercel.app",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "DailyNaamJap - Digital Mala Counter for Spiritual Practice",
+        type: "image/png",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "DailyNaamJap - Spiritual Chanting Counter",
-    description: "Track your spiritual chanting practice with our free naam jaap counter app",
+    site: "@dailynaamjap",
+    creator: "@dailynaamjap",
+    title: "DailyNaamJap - Free Digital Mala Counter",
+    description: "Free digital mala counter for Hindu & Sikh devotional practices. Track naam jaap with 108-bead counting, 6 deity mantras & offline support.",
+    images: ["/og-image.png"],
+  },
+  alternates: {
+    canonical: "https://dailynaamjap.vercel.app",
+  },
+  verification: {
+    google: "your-google-verification-code",
+  },
+  other: {
+    "mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "default",
+    "apple-mobile-web-app-title": "DailyNaamJap",
   },
 };
 

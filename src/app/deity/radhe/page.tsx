@@ -5,14 +5,27 @@ export default function RadhePage() {
   return (
     <>
       <Head>
-        <title>Radhe Naam Jaap - राधे राधे | Radhe Radhe Mantra</title>
-        <meta name="description" content="Chant राधे राधे (Radhe Radhe) with our digital mala counter. Experience the divine love of Radha Rani through sacred naam jaap." />
-        <meta name="keywords" content="Radhe naam jaap, राधे राधे, Radhe Radhe, Radha mantra, Radha Rani chanting, राधा जप, divine love" />
-        <link rel="canonical" href="/deity/radhe" />
-        <meta property="og:title" content="Radhe Naam Jaap - राधे राधे" />
-        <meta property="og:description" content="Chant Radha Rani's sacred mantra with digital mala counter. Experience divine love and devotion." />
-        <meta property="og:url" content="/deity/radhe" />
-        <meta property="og:image" content="/images/radhe-deity.jpg" />
+        <title>Radhe Naam Jaap - राधे राधे | Radhe Radhe Mantra | Digital Mala</title>
+        <meta name="description" content="Chant राधे राधे (Radhe Radhe) with our free digital mala counter. Experience divine love, pure devotion & Radha Rani's compassionate blessings. 108-bead counting for bhakti practice." />
+        <meta name="keywords" content="Radhe naam jaap, राधे राधे, Radhe Radhe, Radha mantra, Radha Rani chanting, राधा जप, divine love, pure devotion, bhakti yoga, Vrindavan, Krishna consort, spiritual love, emotional purification" />
+        <link rel="canonical" href="https://dailynaamjap.vercel.app/deity/radhe" />
+        <meta property="og:title" content="Radhe Naam Jaap - राधे राधे | Divine Love Mantra | Digital Mala" />
+        <meta property="og:description" content="Experience divine love through Radha Rani's sacred mantra. Free digital mala counter for pure devotion & spiritual bliss. Perfect for bhakti yoga practice." />
+        <meta property="og:url" content="https://dailynaamjap.vercel.app/deity/radhe" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Radhe Radhe Naam Jaap - Digital Mala Counter for Divine Love" />
+        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dailynaamjap" />
+        <meta name="twitter:creator" content="@dailynaamjap" />
+        <meta name="twitter:title" content="Radhe Radhe Naam Jaap - Divine Love Mantra | Free Digital Mala" />
+        <meta name="twitter:description" content="Open your heart to Radha's divine love! Free digital mala counter for pure devotion. Experience spiritual bliss through sacred chanting." />
+        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-pink-50 to-rose-50 py-8 px-4">

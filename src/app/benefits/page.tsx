@@ -5,13 +5,27 @@ export default function Benefits() {
   return (
     <>
       <Head>
-        <title>Benefits of Naam Jaap - Spiritual & Mental Health Benefits | नाम जप के फायदे</title>
-        <meta name="description" content="Discover the spiritual, mental, and emotional benefits of regular naam jaap practice. Learn how chanting mantras improves well-being and spiritual growth." />
-        <meta name="keywords" content="naam jaap benefits, chanting benefits, spiritual benefits, meditation benefits, mantra benefits, mental health" />
-        <link rel="canonical" href="/benefits" />
-        <meta property="og:title" content="Benefits of Naam Jaap - Spiritual & Mental Health Benefits" />
-        <meta property="og:description" content="Discover the spiritual and mental health benefits of regular naam jaap practice." />
-        <meta property="og:url" content="/benefits" />
+        <title>Naam Jaap Benefits - Spiritual, Mental & Physical Health Benefits</title>
+        <meta name="description" content="Scientific benefits of naam jaap & mantra chanting: Reduces stress & anxiety, improves focus & sleep, lowers blood pressure, enhances immunity. Discover spiritual purification, divine grace & inner peace through daily practice." />
+        <meta name="keywords" content="naam jaap benefits, mantra chanting benefits, spiritual benefits meditation, stress reduction mantras, mental health benefits chanting, physical benefits spiritual practice, science of mantra chanting, meditation health benefits" />
+        <link rel="canonical" href="https://dailynaamjap.vercel.app/benefits" />
+        <meta property="og:title" content="Naam Jaap Benefits - Spiritual, Mental & Physical Health Benefits" />
+        <meta property="og:description" content="Scientific benefits of naam jaap: Reduces stress & anxiety, improves focus & sleep, lowers blood pressure. Discover spiritual purification & inner peace through daily practice." />
+        <meta property="og:url" content="https://dailynaamjap.vercel.app/benefits" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Health Benefits of Naam Jaap and Mantra Chanting" />
+        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dailynaamjap" />
+        <meta name="twitter:creator" content="@dailynaamjap" />
+        <meta name="twitter:title" content="Science-Based Benefits of Naam Jaap & Mantra Chanting" />
+        <meta name="twitter:description" content="Discover proven benefits: Reduces stress & anxiety, improves focus & sleep, lowers blood pressure. Start your spiritual practice today!" />
+        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-green-50 to-blue-50 py-8 px-4">

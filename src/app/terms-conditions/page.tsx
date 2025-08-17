@@ -5,13 +5,27 @@ export default function TermsConditions() {
   return (
     <>
       <Head>
-        <title>Terms & Conditions - Naam Jaap App | नियम और शर्तें</title>
-        <meta name="description" content="Terms and conditions for using Naam Jaap app. Guidelines for spiritual practice and app usage." />
-        <meta name="keywords" content="naam jaap terms conditions, spiritual app terms, app usage guidelines" />
-        <link rel="canonical" href="/terms-conditions" />
-        <meta property="og:title" content="Terms & Conditions - Naam Jaap App" />
-        <meta property="og:description" content="Terms and conditions for using Naam Jaap app." />
-        <meta property="og:url" content="/terms-conditions" />
+        <title>Terms & Conditions - DailyNaamJap App Usage Guidelines | नियम और शर्तें</title>
+        <meta name="description" content="DailyNaamJap terms & conditions: Free use guidelines for digital mala counter. Spiritual practice terms, app usage rules, intellectual property & user responsibilities for naam jaap counting." />
+        <meta name="keywords" content="naam jaap terms conditions, spiritual app terms, app usage guidelines, digital mala terms, free app conditions, spiritual practice guidelines, user agreement, intellectual property, app licensing" />
+        <link rel="canonical" href="https://dailynaamjap.vercel.app/terms-conditions" />
+        <meta property="og:title" content="Terms & Conditions - DailyNaamJap App Usage Guidelines" />
+        <meta property="og:description" content="Free use guidelines for DailyNaamJap digital mala counter. Spiritual practice terms, app usage rules & user responsibilities for secure naam jaap experience." />
+        <meta property="og:url" content="https://dailynaamjap.vercel.app/terms-conditions" />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="DailyNaamJap Terms & Conditions - App Usage Guidelines" />
+        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dailynaamjap" />
+        <meta name="twitter:creator" content="@dailynaamjap" />
+        <meta name="twitter:title" content="DailyNaamJap Terms & Conditions - Free App Usage Guidelines" />
+        <meta name="twitter:description" content="Free spiritual app terms: Usage guidelines for digital mala counter, user responsibilities & spiritual practice rules. Fair use policy." />
+        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-violet-50 to-purple-50 py-8 px-4">

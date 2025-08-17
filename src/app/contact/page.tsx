@@ -5,13 +5,27 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>Contact Us - Naam Jaap App Support & Feedback | संपर्क करें</title>
-        <meta name="description" content="Get in touch with Naam Jaap app team for support, feedback, or suggestions. Contact information and support resources." />
-        <meta name="keywords" content="naam jaap contact, spiritual app support, feedback, customer service, help" />
-        <link rel="canonical" href="/contact" />
-        <meta property="og:title" content="Contact Us - Naam Jaap App Support & Feedback" />
-        <meta property="og:description" content="Get in touch with the Naam Jaap app team for support and feedback." />
-        <meta property="og:url" content="/contact" />
+        <title>Contact DailyNaamJap - App Support, Feedback & Suggestions</title>
+        <meta name="description" content="Contact DailyNaamJap team for technical support, feature requests, bug reports & feedback. Get help with digital mala counter, mantra chanting app issues. 24-48 hour response time guaranteed." />
+        <meta name="keywords" content="DailyNaamJap contact, naam jaap app support, spiritual app help, mala counter support, technical support spiritual app, app feedback, feature requests, bug reports" />
+        <link rel="canonical" href="https://dailynaamjap.vercel.app/contact" />
+        <meta property="og:title" content="Contact DailyNaamJap - App Support, Feedback & Suggestions" />
+        <meta property="og:description" content="Contact DailyNaamJap team for technical support, feature requests & feedback. Get help with digital mala counter & mantra chanting app. 24-48 hour response guaranteed." />
+        <meta property="og:url" content="https://dailynaamjap.vercel.app/contact" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Contact DailyNaamJap Support Team" />
+        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@dailynaamjap" />
+        <meta name="twitter:creator" content="@dailynaamjap" />
+        <meta name="twitter:title" content="Contact DailyNaamJap Support - Quick Help & Feedback" />
+        <meta name="twitter:description" content="Get technical support, report bugs, request features. 24-48 hour response time. We're here to help with your spiritual practice!" />
+        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="robots" content="index, follow, max-image-preview:large" />
       </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50 py-8 px-4">
