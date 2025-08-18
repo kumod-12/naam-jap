@@ -16,7 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "DailyNaamJap - Free Digital Mala Counter | Spiritual Chanting App",
+  metadataBase: new URL('https://www.dailynaamjap.com'),
+  title: "Daily Naam Jap - Free Digital Mala Counter | Spiritual Chanting App",
   description: "Free digital mala counter for Hindu & Sikh devotional practices. Track naam jaap with 108-bead counting, 6 deity mantras, dark mode & offline support. Start your spiritual journey today!",
   keywords: [
     "digital mala counter",
@@ -32,25 +33,25 @@ export const metadata: Metadata = {
     "free mala counter",
     "offline spiritual app"
   ],
-  authors: [{ name: "DailyNaamJap Team", url: "https://dailynaamjap.vercel.app" }],
-  creator: "DailyNaamJap",
-  publisher: "DailyNaamJap",
+  authors: [{ name: "Daily Naam Jap Team", url: "https://www.dailynaamjap.com" }],
+  creator: "Daily Naam Jap",
+  publisher: "Daily Naam Jap",
   robots: "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
   category: "Lifestyle",
   classification: "Spiritual & Religious Apps",
   openGraph: {
     type: "website",
-    title: "DailyNaamJap - Free Digital Mala Counter | Spiritual Chanting App",
+    title: "Daily Naam Jap - Free Digital Mala Counter | Spiritual Chanting App",
     description: "Free digital mala counter for Hindu & Sikh devotional practices. Track naam jaap with 108-bead counting, 6 deity mantras, dark mode & offline support.",
-    siteName: "DailyNaamJap",
+    siteName: "Daily Naam Jap",
     locale: "en_US",
-    url: "https://dailynaamjap.vercel.app",
+    url: "https://www.dailynaamjap.com",
     images: [
       {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "DailyNaamJap - Digital Mala Counter for Spiritual Practice",
+        alt: "Daily Naam Jap - Digital Mala Counter for Spiritual Practice",
         type: "image/png",
       },
     ],
@@ -59,12 +60,12 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     site: "@dailynaamjap",
     creator: "@dailynaamjap",
-    title: "DailyNaamJap - Free Digital Mala Counter",
+    title: "Daily Naam Jap - Free Digital Mala Counter",
     description: "Free digital mala counter for Hindu & Sikh devotional practices. Track naam jaap with 108-bead counting, 6 deity mantras & offline support.",
     images: ["/og-image.png"],
   },
   alternates: {
-    canonical: "https://dailynaamjap.vercel.app",
+    canonical: "https://www.dailynaamjap.com",
   },
   verification: {
     google: "your-google-verification-code",
@@ -73,7 +74,7 @@ export const metadata: Metadata = {
     "mobile-web-app-capable": "yes",
     "apple-mobile-web-app-capable": "yes",
     "apple-mobile-web-app-status-bar-style": "default",
-    "apple-mobile-web-app-title": "DailyNaamJap",
+    "apple-mobile-web-app-title": "Daily Naam Jap",
   },
 };
 
@@ -110,7 +111,7 @@ export default function RootLayout({
         <meta name="theme-color" content="#f97316" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-        <meta name="apple-mobile-web-app-title" content="DailyNaamJap" />
+        <meta name="apple-mobile-web-app-title" content="Daily Naam Jap" />
         <link rel="apple-touch-icon" href="/icon-192x192.png" />
       </head>
       <body
@@ -126,6 +127,13 @@ export default function RootLayout({
       >
         <ThemeProvider />
         {children}
+        <footer className="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-4 mt-auto">
+          <div className="max-w-2xl mx-auto px-4 text-center">
+            <p className="text-sm text-gray-600 dark:text-gray-400">
+              Copyright © 2025 Daily Naam Jap - All Rights Reserved.
+            </p>
+          </div>
+        </footer>
         <Analytics />
         <SpeedInsights />
       </body>

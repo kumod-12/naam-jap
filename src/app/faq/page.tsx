@@ -1,32 +1,42 @@
-import Head from 'next/head';
+import { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "Daily Naam Jap FAQ - Common Questions & Answers About Digital Mala",
+  description: "Get answers about Daily Naam Jap digital mala counter: How 108-bead counting works, data storage, offline functionality, PWA installation, deity mantras, daily goals & more. Complete FAQ guide.",
+  keywords: ["Daily Naam Jap FAQ", "digital mala counter questions", "naam jaap app help", "108 beads explanation", "spiritual app guide", "mala counting help", "mantra chanting questions", "PWA installation guide"],
+  alternates: {
+    canonical: "https://www.dailynaamjap.com/faq",
+  },
+  openGraph: {
+    title: "Daily Naam Jap FAQ - Common Questions & Answers About Digital Mala",
+    description: "Get answers about Daily Naam Jap: How 108-bead counting works, data storage, offline functionality, PWA installation & more. Complete FAQ guide.",
+    url: "https://www.dailynaamjap.com/faq",
+    type: "article",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Daily Naam Jap FAQ - Questions and Answers",
+      },
+    ],
+    siteName: "Daily Naam Jap",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@dailynaamjap",
+    creator: "@dailynaamjap",
+    title: "Daily Naam Jap FAQ - Digital Mala Counter Help & Guide",
+    description: "Common questions answered: 108-bead counting, data storage, offline use, PWA installation & more. Get help with your spiritual practice.",
+    images: ["/og-image.png"],
+  },
+  robots: "index, follow, max-image-preview:large",
+};
 
 export default function FAQ() {
   return (
-    <>
-      <Head>
-        <title>DailyNaamJap FAQ - Common Questions & Answers About Digital Mala</title>
-        <meta name="description" content="Get answers about DailyNaamJap digital mala counter: How 108-bead counting works, data storage, offline functionality, PWA installation, deity mantras, daily goals & more. Complete FAQ guide." />
-        <meta name="keywords" content="DailyNaamJap FAQ, digital mala counter questions, naam jaap app help, 108 beads explanation, spiritual app guide, mala counting help, mantra chanting questions, PWA installation guide" />
-        <link rel="canonical" href="https://dailynaamjap.vercel.app/faq" />
-        <meta property="og:title" content="DailyNaamJap FAQ - Common Questions & Answers About Digital Mala" />
-        <meta property="og:description" content="Get answers about DailyNaamJap: How 108-bead counting works, data storage, offline functionality, PWA installation & more. Complete FAQ guide." />
-        <meta property="og:url" content="https://dailynaamjap.vercel.app/faq" />
-        <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="DailyNaamJap FAQ - Questions and Answers" />
-        <meta property="og:site_name" content="DailyNaamJap" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@dailynaamjap" />
-        <meta name="twitter:creator" content="@dailynaamjap" />
-        <meta name="twitter:title" content="DailyNaamJap FAQ - Digital Mala Counter Help & Guide" />
-        <meta name="twitter:description" content="Common questions answered: 108-bead counting, data storage, offline use, PWA installation & more. Get help with your spiritual practice." />
-        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
-        <meta name="robots" content="index, follow, max-image-preview:large" />
-      </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 py-8 px-4">
         <div className="max-w-2xl mx-auto">

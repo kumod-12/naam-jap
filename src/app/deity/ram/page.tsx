@@ -8,23 +8,23 @@ export default function RamPage() {
         <title>Lord Ram Naam Jaap - श्री राम जय राम | Digital Mala Counter</title>
         <meta name="description" content="Chant श्री राम जय राम जय जय राम (Shri Ram Jai Ram) with our free digital mala counter. Experience divine protection, spiritual purification & inner peace through Lord Ram's sacred naam jaap. 108-bead counting available." />
         <meta name="keywords" content="Lord Ram naam jaap, श्री राम जय राम, Ram mantra chanting, Shri Ram Jai Ram, digital mala counter Ram, Hindu devotional practice, Ram chanting app, spiritual purification Ram, divine protection mantra, Ramayana mantras" />
-        <link rel="canonical" href="https://dailynaamjap.vercel.app/deity/ram" />
+        <link rel="canonical" href="https://www.dailynaamjap.com/deity/ram" />
         <meta property="og:title" content="Lord Ram Naam Jaap - श्री राम जय राम | Digital Mala Counter" />
         <meta property="og:description" content="Chant श्री राम जय राम जय जय राम with our free digital mala counter. Experience divine protection, spiritual purification & inner peace through Lord Ram's sacred naam jaap." />
-        <meta property="og:url" content="https://dailynaamjap.vercel.app/deity/ram" />
+        <meta property="og:url" content="https://www.dailynaamjap.com/deity/ram" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image" content="https://www.dailynaamjap.com/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Lord Ram Naam Jaap - Digital Mala Counter" />
-        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:site_name" content="Daily Naam Jap" />
         <meta property="og:locale" content="en_US" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dailynaamjap" />
         <meta name="twitter:creator" content="@dailynaamjap" />
         <meta name="twitter:title" content="Lord Ram Naam Jaap - श्री राम जय राम" />
         <meta name="twitter:description" content="Chant श्री राम जय राम जय जय राम with free digital mala counter. Experience divine protection & spiritual purification." />
-        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="twitter:image" content="https://www.dailynaamjap.com/og-image.png" />
         <meta name="robots" content="index, follow, max-image-preview:large" />
         <script
           type="application/ld+json"

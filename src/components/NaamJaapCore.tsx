@@ -104,7 +104,7 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
   // Translation object
   const translations = {
     hindi: {
-      title: 'DailyNaamJap',
+      title: 'Daily Naam Jap',
       subtitle: 'आध्यात्मिक साधना का साथी',
       selectDeity: 'देवता चुनें',
       chantMantra: 'मंत्र जप करें',
@@ -138,7 +138,7 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
       pwaPromptText: 'बेहतर अनुभव के लिए इस ऐप को अपनी होम स्क्रीन पर इंस्टॉल करें।'
     },
     english: {
-      title: 'DailyNaamJap',
+      title: 'Daily Naam Jap',
       subtitle: 'Your Spiritual Practice Companion',
       selectDeity: 'Select Deity',
       chantMantra: 'Chant Mantra',
@@ -439,8 +439,8 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
     if (navigator.share) {
       try {
         await navigator.share({
-          title: 'DailyNaamJap - Spiritual Chanting Counter',
-          text: 'Track your spiritual chanting practice with this free DailyNaamJap counter app!',
+          title: 'Daily Naam Jap - Spiritual Chanting Counter',
+          text: 'Track your spiritual chanting practice with this free Daily Naam Jap counter app!',
           url: window.location.origin
         });
       } catch (err) {
@@ -549,7 +549,7 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
 
   return (
     <div className={`min-h-screen ${themeClasses} transition-colors duration-300`}>
-      <div className="max-w-md lg:max-w-6xl mx-auto relative">
+      <div className="max-w-md lg:max-w-2xl mx-auto relative">
         
         {/* Header - Compact */}
         <div className={`flex items-center justify-between p-4 sticky top-0 z-40 backdrop-blur-md ${darkMode ? 'bg-gray-900 bg-opacity-95' : 'bg-white bg-opacity-90'} border-b ${darkMode ? 'border-gray-700' : 'border-gray-200'}`}>
@@ -561,10 +561,10 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
           </button>
           
           <Link href="/" className="text-center">
-            {/* DailyNaamJap Logo */}
+            {/* Daily Naam Jap Logo */}
             <img 
               src="/dailynaamjap-logo.svg" 
-              alt="DailyNaamJap Logo" 
+              alt="Daily Naam Jap Logo" 
               className="h-12 w-auto mx-auto cursor-pointer hover:scale-105 transition-transform"
               style={{
                 filter: darkMode ? 'invert(1) hue-rotate(180deg) brightness(1.2)' : 'none'
@@ -725,7 +725,7 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
                   className="w-full p-4 text-left flex items-center justify-between hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
                 >
                   <h3 className={`text-lg font-semibold ${textClasses}`}>
-                    {language === 'hindi' ? 'DailyNaamJap के बारे में' : 'About DailyNaamJap'}
+                    {language === 'hindi' ? 'Daily Naam Jap के बारे में' : 'About Daily Naam Jap'}
                   </h3>
                   {showAboutAccordion ? (
                     <ChevronUp className="w-5 h-5 text-gray-500" />
@@ -959,7 +959,7 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
 
         {/* Bottom Sticky Ad Placeholder - Responsive */}
         <div className="fixed bottom-0 left-0 right-0 z-30 lg:relative lg:mt-8">
-          <div className={`${cardClasses} shadow-lg border-t border-gray-200 dark:border-gray-700 p-3 text-center lg:max-w-4xl lg:mx-auto lg:rounded-xl lg:border`}>
+          <div className={`${cardClasses} shadow-lg border-t border-gray-200 dark:border-gray-700 p-3 text-center lg:max-w-2xl lg:mx-auto lg:rounded-xl lg:border`}>
             <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">
               {language === 'hindi' ? 'विज्ञापन' : 'Advertisement'}
             </div>

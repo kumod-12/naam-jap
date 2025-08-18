@@ -1,32 +1,42 @@
-import Head from 'next/head';
+import { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "Privacy Policy - Daily Naam Jap Data Protection & Security | Complete Privacy",
+  description: "Daily Naam Jap privacy policy: Complete data protection for your spiritual practice. Local storage only, no tracking, no data collection. Your naam jaap counting remains 100% private & secure.",
+  keywords: ["naam jaap privacy policy", "spiritual app privacy", "data protection", "spiritual practice privacy", "local storage", "no tracking", "secure app", "private spiritual practice", "GDPR compliant", "data security"],
+  alternates: {
+    canonical: "https://www.dailynaamjap.com/privacy-policy",
+  },
+  openGraph: {
+    title: "Privacy Policy - Daily Naam Jap Complete Data Protection",
+    description: "Your spiritual practice stays private! Daily Naam Jap uses only local storage, no tracking, no data collection. 100% secure naam jaap counting experience.",
+    url: "https://www.dailynaamjap.com/privacy-policy",
+    type: "article",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Daily Naam Jap Privacy Policy - Complete Data Protection",
+      },
+    ],
+    siteName: "Daily Naam Jap",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@dailynaamjap",
+    creator: "@dailynaamjap",
+    title: "Daily Naam Jap Privacy Policy - 100% Private Spiritual Practice",
+    description: "Your spiritual data stays private! Local storage only, no tracking, no data collection. Secure & private naam jaap experience.",
+    images: ["/og-image.png"],
+  },
+  robots: "index, follow, max-image-preview:large",
+};
 
 export default function PrivacyPolicy() {
   return (
-    <>
-      <Head>
-        <title>Privacy Policy - DailyNaamJap Data Protection & Security | Complete Privacy</title>
-        <meta name="description" content="DailyNaamJap privacy policy: Complete data protection for your spiritual practice. Local storage only, no tracking, no data collection. Your naam jaap counting remains 100% private & secure." />
-        <meta name="keywords" content="naam jaap privacy policy, spiritual app privacy, data protection, spiritual practice privacy, local storage, no tracking, secure app, private spiritual practice, GDPR compliant, data security" />
-        <link rel="canonical" href="https://dailynaamjap.vercel.app/privacy-policy" />
-        <meta property="og:title" content="Privacy Policy - DailyNaamJap Complete Data Protection" />
-        <meta property="og:description" content="Your spiritual practice stays private! DailyNaamJap uses only local storage, no tracking, no data collection. 100% secure naam jaap counting experience." />
-        <meta property="og:url" content="https://dailynaamjap.vercel.app/privacy-policy" />
-        <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="DailyNaamJap Privacy Policy - Complete Data Protection" />
-        <meta property="og:site_name" content="DailyNaamJap" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@dailynaamjap" />
-        <meta name="twitter:creator" content="@dailynaamjap" />
-        <meta name="twitter:title" content="DailyNaamJap Privacy Policy - 100% Private Spiritual Practice" />
-        <meta name="twitter:description" content="Your spiritual data stays private! Local storage only, no tracking, no data collection. Secure & private naam jaap experience." />
-        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
-        <meta name="robots" content="index, follow, max-image-preview:large" />
-      </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 py-8 px-4">
         <div className="max-w-2xl mx-auto">

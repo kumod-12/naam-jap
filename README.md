@@ -1,4 +1,4 @@
-# DailyNaamJap - Spiritual Chanting Counter App
+# Daily Naam Jap - Spiritual Chanting Counter App
 
 A modern web application for Hindu and Sikh devotional practices, designed to help users track their daily naam jaap (spiritual chanting) with a digital mala counter.
 

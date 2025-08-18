@@ -8,23 +8,23 @@ export default function WaheguruPage() {
         <title>Waheguru Naam Jaap - वाहे गुरु | Sikh Naam Simran | Digital Mala</title>
         <meta name="description" content="Chant वाहे गुरु (Waheguru) with our free digital mala counter. Experience divine grace through sacred Sikh naam simran. Perfect for Khalsa devotion & Guru's blessings. 108-bead counting available." />
         <meta name="keywords" content="Waheguru naam jaap, वाहे गुरु, Waheguru Ji, Sikh naam simran, Guru mantra, गुरुमुखी, Gurmukhi prayers, Khalsa, Guru Nanak, Guru Granth Sahib, Golden Temple, spiritual meditation, divine connection" />
-        <link rel="canonical" href="https://dailynaamjap.vercel.app/deity/waheguru" />
+        <link rel="canonical" href="https://www.dailynaamjap.com/deity/waheguru" />
         <meta property="og:title" content="Waheguru Naam Simran - वाहे गुरु | Sikh Digital Mala Counter" />
         <meta property="og:description" content="Experience divine grace through Waheguru naam simran. Free digital mala counter for Sikh devotion & Khalsa practice. Connect with Guru's blessings anywhere." />
-        <meta property="og:url" content="https://dailynaamjap.vercel.app/deity/waheguru" />
+        <meta property="og:url" content="https://www.dailynaamjap.com/deity/waheguru" />
         <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta property="og:image" content="https://www.dailynaamjap.com/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Waheguru Naam Simran - Digital Mala Counter for Sikh Devotion" />
-        <meta property="og:site_name" content="DailyNaamJap" />
+        <meta property="og:site_name" content="Daily Naam Jap" />
         <meta property="og:locale" content="en_US" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dailynaamjap" />
         <meta name="twitter:creator" content="@dailynaamjap" />
         <meta name="twitter:title" content="Waheguru Naam Simran - वाहे गुरु | Free Digital Mala for Sikhs" />
         <meta name="twitter:description" content="Connect with the Guru through sacred naam simran! Free digital mala counter for Waheguru chanting. Perfect for Khalsa devotion." />
-        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
+        <meta name="twitter:image" content="https://www.dailynaamjap.com/og-image.png" />
         <meta name="robots" content="index, follow, max-image-preview:large" />
       </Head>
       

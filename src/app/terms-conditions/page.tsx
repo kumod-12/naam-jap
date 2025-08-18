@@ -1,32 +1,42 @@
-import Head from 'next/head';
+import { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "Terms & Conditions - Daily Naam Jap App Usage Guidelines | नियम और शर्तें",
+  description: "Daily Naam Jap terms & conditions: Free use guidelines for digital mala counter. Spiritual practice terms, app usage rules, intellectual property & user responsibilities for naam jaap counting.",
+  keywords: ["naam jaap terms conditions", "spiritual app terms", "app usage guidelines", "digital mala terms", "free app conditions", "spiritual practice guidelines", "user agreement", "intellectual property", "app licensing"],
+  alternates: {
+    canonical: "https://www.dailynaamjap.com/terms-conditions",
+  },
+  openGraph: {
+    title: "Terms & Conditions - Daily Naam Jap App Usage Guidelines",
+    description: "Free use guidelines for Daily Naam Jap digital mala counter. Spiritual practice terms, app usage rules & user responsibilities for secure naam jaap experience.",
+    url: "https://www.dailynaamjap.com/terms-conditions",
+    type: "article",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Daily Naam Jap Terms & Conditions - App Usage Guidelines",
+      },
+    ],
+    siteName: "Daily Naam Jap",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@dailynaamjap",
+    creator: "@dailynaamjap",
+    title: "Daily Naam Jap Terms & Conditions - Free App Usage Guidelines",
+    description: "Free spiritual app terms: Usage guidelines for digital mala counter, user responsibilities & spiritual practice rules. Fair use policy.",
+    images: ["/og-image.png"],
+  },
+  robots: "index, follow, max-image-preview:large",
+};
 
 export default function TermsConditions() {
   return (
-    <>
-      <Head>
-        <title>Terms & Conditions - DailyNaamJap App Usage Guidelines | नियम और शर्तें</title>
-        <meta name="description" content="DailyNaamJap terms & conditions: Free use guidelines for digital mala counter. Spiritual practice terms, app usage rules, intellectual property & user responsibilities for naam jaap counting." />
-        <meta name="keywords" content="naam jaap terms conditions, spiritual app terms, app usage guidelines, digital mala terms, free app conditions, spiritual practice guidelines, user agreement, intellectual property, app licensing" />
-        <link rel="canonical" href="https://dailynaamjap.vercel.app/terms-conditions" />
-        <meta property="og:title" content="Terms & Conditions - DailyNaamJap App Usage Guidelines" />
-        <meta property="og:description" content="Free use guidelines for DailyNaamJap digital mala counter. Spiritual practice terms, app usage rules & user responsibilities for secure naam jaap experience." />
-        <meta property="og:url" content="https://dailynaamjap.vercel.app/terms-conditions" />
-        <meta property="og:type" content="article" />
-        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="DailyNaamJap Terms & Conditions - App Usage Guidelines" />
-        <meta property="og:site_name" content="DailyNaamJap" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@dailynaamjap" />
-        <meta name="twitter:creator" content="@dailynaamjap" />
-        <meta name="twitter:title" content="DailyNaamJap Terms & Conditions - Free App Usage Guidelines" />
-        <meta name="twitter:description" content="Free spiritual app terms: Usage guidelines for digital mala counter, user responsibilities & spiritual practice rules. Fair use policy." />
-        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
-        <meta name="robots" content="index, follow, max-image-preview:large" />
-      </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-violet-50 to-purple-50 py-8 px-4">
         <div className="max-w-2xl mx-auto">

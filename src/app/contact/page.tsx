@@ -1,32 +1,42 @@
-import Head from 'next/head';
+import { Metadata } from 'next';
 import Link from 'next/link';
+
+export const metadata: Metadata = {
+  title: "Contact Daily Naam Jap - App Support, Feedback & Suggestions",
+  description: "Contact Daily Naam Jap team for technical support, feature requests, bug reports & feedback. Get help with digital mala counter, mantra chanting app issues. 24-48 hour response time guaranteed.",
+  keywords: ["Daily Naam Jap contact", "naam jaap app support", "spiritual app help", "mala counter support", "technical support spiritual app", "app feedback", "feature requests", "bug reports"],
+  alternates: {
+    canonical: "https://www.dailynaamjap.com/contact",
+  },
+  openGraph: {
+    title: "Contact Daily Naam Jap - App Support, Feedback & Suggestions",
+    description: "Contact Daily Naam Jap team for technical support, feature requests & feedback. Get help with digital mala counter & mantra chanting app. 24-48 hour response guaranteed.",
+    url: "https://www.dailynaamjap.com/contact",
+    type: "website",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Contact Daily Naam Jap Support Team",
+      },
+    ],
+    siteName: "Daily Naam Jap",
+    locale: "en_US",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@dailynaamjap",
+    creator: "@dailynaamjap",
+    title: "Contact Daily Naam Jap Support - Quick Help & Feedback",
+    description: "Get technical support, report bugs, request features. 24-48 hour response time. We're here to help with your spiritual practice!",
+    images: ["/og-image.png"],
+  },
+  robots: "index, follow, max-image-preview:large",
+};
 
 export default function Contact() {
   return (
-    <>
-      <Head>
-        <title>Contact DailyNaamJap - App Support, Feedback & Suggestions</title>
-        <meta name="description" content="Contact DailyNaamJap team for technical support, feature requests, bug reports & feedback. Get help with digital mala counter, mantra chanting app issues. 24-48 hour response time guaranteed." />
-        <meta name="keywords" content="DailyNaamJap contact, naam jaap app support, spiritual app help, mala counter support, technical support spiritual app, app feedback, feature requests, bug reports" />
-        <link rel="canonical" href="https://dailynaamjap.vercel.app/contact" />
-        <meta property="og:title" content="Contact DailyNaamJap - App Support, Feedback & Suggestions" />
-        <meta property="og:description" content="Contact DailyNaamJap team for technical support, feature requests & feedback. Get help with digital mala counter & mantra chanting app. 24-48 hour response guaranteed." />
-        <meta property="og:url" content="https://dailynaamjap.vercel.app/contact" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="https://dailynaamjap.vercel.app/og-image.png" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Contact DailyNaamJap Support Team" />
-        <meta property="og:site_name" content="DailyNaamJap" />
-        <meta property="og:locale" content="en_US" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@dailynaamjap" />
-        <meta name="twitter:creator" content="@dailynaamjap" />
-        <meta name="twitter:title" content="Contact DailyNaamJap Support - Quick Help & Feedback" />
-        <meta name="twitter:description" content="Get technical support, report bugs, request features. 24-48 hour response time. We're here to help with your spiritual practice!" />
-        <meta name="twitter:image" content="https://dailynaamjap.vercel.app/og-image.png" />
-        <meta name="robots" content="index, follow, max-image-preview:large" />
-      </Head>
       
       <div className="min-h-screen bg-gradient-to-br from-teal-50 to-cyan-50 py-8 px-4">
         <div className="max-w-2xl mx-auto">
