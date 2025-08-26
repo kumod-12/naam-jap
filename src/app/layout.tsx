@@ -144,7 +144,7 @@ export default function RootLayout({
       >
         <ThemeProvider />
         {children}
-        <footer className="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-4 mt-auto mb-16">
+        <footer className="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-4 mt-auto mb-16 md:mb-24">
           <div className="max-w-2xl mx-auto px-4 text-center">
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Copyright © 2025 Daily Naam Jap - All Rights Reserved.
