@@ -7,13 +7,17 @@ interface AdBannerProps {
   adFormat?: string;
   responsive?: boolean;
   style?: React.CSSProperties;
+  width?: string;
+  height?: string;
 }
 
 export default function AdBanner({ 
   adSlot, 
   adFormat = 'auto', 
   responsive = true,
-  style = { display: 'block' }
+  style,
+  width = 'auto',
+  height = 'auto'
 }: AdBannerProps) {
   useEffect(() => {
     try {
@@ -24,12 +28,18 @@ export default function AdBanner({
     }
   }, []);
 
+  const adStyle = style || {
+    display: 'inline-block',
+    width: width,
+    height: height
+  };
+
   return (
     <div className="ad-container my-4 text-center">
       <ins
         className="adsbygoogle"
-        style={style}
-        data-ad-client="ca-pub-8211637256753557"
+        style={adStyle}
+        data-ad-client="ca-pub-2243677965278567"
         data-ad-slot={adSlot}
         data-ad-format={adFormat}
         data-full-width-responsive={responsive.toString()}

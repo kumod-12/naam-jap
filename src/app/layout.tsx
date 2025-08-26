@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import ThemeProvider from '@/components/ThemeProvider';
+import BottomFixedAd from '@/components/BottomFixedAd';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -100,7 +101,7 @@ export default function RootLayout({
         />
         
         {/* Google AdSense */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8211637256753557" crossOrigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2243677965278567" crossOrigin="anonymous"></script>
         
         <script
           dangerouslySetInnerHTML={{
@@ -143,13 +144,14 @@ export default function RootLayout({
       >
         <ThemeProvider />
         {children}
-        <footer className="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-4 mt-auto">
+        <footer className="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-4 mt-auto mb-16">
           <div className="max-w-2xl mx-auto px-4 text-center">
             <p className="text-sm text-gray-600 dark:text-gray-400">
               Copyright © 2025 Daily Naam Jap - All Rights Reserved.
             </p>
           </div>
         </footer>
+        <BottomFixedAd />
         <Analytics />
         <SpeedInsights />
       </body>
