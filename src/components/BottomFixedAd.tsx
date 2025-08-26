@@ -32,10 +32,18 @@ export default function BottomFixedAd() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        padding: '5px'
+        padding: '5px',
+        minWidth: isMobile ? '320px' : '748px'
       }}
     >
-      <div className="ad-container">
+      <div 
+        className="ad-container"
+        style={{
+          width: isMobile ? '300px' : '728px',
+          height: isMobile ? '50px' : '90px',
+          overflow: 'hidden'
+        }}
+      >
         {isMobile ? (
           // Mobile Bottom_fixed-ad 300x50
           <ins 
