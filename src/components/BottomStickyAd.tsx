@@ -18,6 +18,7 @@ export default function BottomStickyAd() {
     if (isClient) {
       setTimeout(() => {
         try {
+          // @ts-ignore
           (window.adsbygoogle = window.adsbygoogle || []).push({});
         } catch (err) {
           console.log('AdSense error:', err);
