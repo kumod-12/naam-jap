@@ -3,6 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import { RotateCcw, Settings, Menu, X, Sun, Moon, Download, Image, Heart, Share, Volume2, VolumeX, ChevronDown, ChevronUp } from 'lucide-react';
 import Link from 'next/link';
+import AdBanner from './AdBanner';
 
 interface NaamJaapCoreProps {
   showMenu: boolean;
@@ -957,25 +958,29 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
           />
         )}
 
-        {/* Bottom Sticky Ad Placeholder - Responsive */}
+        {/* Bottom Sticky Ad - Responsive */}
         <div className="fixed bottom-0 left-0 right-0 z-30 lg:relative lg:mt-8">
           <div className={`${cardClasses} shadow-lg border-t border-gray-200 dark:border-gray-700 p-3 text-center lg:max-w-2xl lg:mx-auto lg:rounded-xl lg:border`}>
             <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">
               {language === 'hindi' ? 'विज्ञापन' : 'Advertisement'}
             </div>
-            <div className="bg-gray-100 dark:bg-gray-700 rounded p-4 text-gray-400">
-              <div className="text-sm lg:hidden">
-                {language === 'hindi' ? 
-                  '320x50 विज्ञापन स्थान - मोबाइल बैनर' : 
-                  '320x50 Ad Space - Mobile Banner'
-                }
-              </div>
-              <div className="text-sm hidden lg:block">
-                {language === 'hindi' ? 
-                  '728x90 विज्ञापन स्थान - डेस्कटॉप लीडरबोर्ड' : 
-                  '728x90 Ad Space - Desktop Leaderboard'
-                }
-              </div>
+            {/* Mobile Ad - 320x50 */}
+            <div className="lg:hidden">
+              <AdBanner 
+                adSlot="9592063681"
+                width="320px" 
+                height="50px"
+                responsive={false}
+              />
+            </div>
+            {/* Desktop Ad - 728x90 */}
+            <div className="hidden lg:block">
+              <AdBanner 
+                adSlot="5130074497"
+                width="728px" 
+                height="90px"
+                responsive={false}
+              />
             </div>
           </div>
         </div>
