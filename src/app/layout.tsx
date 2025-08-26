@@ -132,14 +132,15 @@ export default function RootLayout({
         <link rel="apple-touch-icon" href="/icon-192x192.png" />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased pb-16 md:pb-24`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         style={{
           margin: 0,
           padding: 0,
           fontFamily: 'Arial, Helvetica, sans-serif',
           backgroundColor: '#ffffff',
           color: '#171717',
-          minHeight: '100vh'
+          minHeight: '100vh',
+          paddingBottom: '70px' /* Space for fixed bottom ad */
         }}
       >
         <ThemeProvider />

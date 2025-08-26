@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 
 export default function BottomFixedAd() {
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(true);
 
   useEffect(() => {
     const checkMobile = () => {
@@ -20,48 +20,45 @@ export default function BottomFixedAd() {
       // @ts-ignore
       (window.adsbygoogle = window.adsbygoogle || []).push({});
     } catch (err) {
-      console.log(err);
+      console.log('AdSense error:', err);
     }
   }, [isMobile]);
 
   return (
-    <div className={`fixed bottom-0 left-0 right-0 z-50 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 shadow-lg flex justify-center items-center overflow-hidden ${isMobile ? 'h-16' : 'h-24'}`}>
-      <div className="ad-container flex justify-center items-center">
+    <div 
+      className="fixed bottom-0 left-0 right-0 z-50 bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 shadow-lg"
+      style={{
+        height: isMobile ? '60px' : '100px',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        padding: '5px'
+      }}
+    >
+      <div className="ad-container">
         {isMobile ? (
-          /* Mobile Bottom_fixed-ad 300x50 */
+          // Mobile Bottom_fixed-ad 300x50
           <ins 
             className="adsbygoogle"
             style={{ 
-              display: 'inline-block', 
+              display: 'block',
               width: '300px', 
-              height: '50px',
-              minWidth: '300px',
-              minHeight: '50px',
-              maxWidth: '300px',
-              maxHeight: '50px'
+              height: '50px'
             }}
             data-ad-client="ca-pub-2243677965278567"
             data-ad-slot="9592063681"
-            data-ad-format="fixed"
-            data-full-width-responsive="false"
           ></ins>
         ) : (
-          /* Desktop bottom-sticky-desktop 728x90 */
+          // Desktop bottom-sticky-desktop 728x90
           <ins 
             className="adsbygoogle"
             style={{ 
-              display: 'inline-block', 
+              display: 'block',
               width: '728px', 
-              height: '90px',
-              minWidth: '728px',
-              minHeight: '90px',
-              maxWidth: '728px',
-              maxHeight: '90px'
+              height: '90px'
             }}
             data-ad-client="ca-pub-2243677965278567"
             data-ad-slot="5130074497"
-            data-ad-format="fixed"
-            data-full-width-responsive="false"
           ></ins>
         )}
       </div>
