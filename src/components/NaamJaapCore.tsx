@@ -3,7 +3,6 @@
 import React, { useState, useEffect } from 'react';
 import { RotateCcw, Settings, Menu, X, Sun, Moon, Download, Image, Heart, Share, Volume2, VolumeX, ChevronDown, ChevronUp } from 'lucide-react';
 import Link from 'next/link';
-import AdBanner from './AdBanner';
 
 interface NaamJaapCoreProps {
   showMenu: boolean;
@@ -958,34 +957,6 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
           />
         )}
 
-        {/* Bottom Ad - Responsive */}
-        <div className="relative mt-8">
-          <div className={`${cardClasses} shadow-lg border-t border-gray-200 dark:border-gray-700 p-3 text-center lg:max-w-2xl lg:mx-auto lg:rounded-xl lg:border`}>
-            <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">
-              {language === 'hindi' ? 'विज्ञापन' : 'Advertisement'}
-            </div>
-            {/* Mobile Ad - 300x250 */}
-            <div className="lg:hidden" style={{ width: '300px', height: '250px', margin: '0 auto', overflow: 'hidden' }}>
-              <AdBanner 
-                adSlot="9592063681"
-                width="300px" 
-                height="250px"
-                responsive={false}
-                style={{ display: 'block', width: '300px', height: '250px' }}
-              />
-            </div>
-            {/* Desktop Ad - 728x90 */}
-            <div className="hidden lg:block" style={{ width: '728px', height: '90px', margin: '0 auto', overflow: 'hidden' }}>
-              <AdBanner 
-                adSlot="5130074497"
-                width="728px" 
-                height="90px"
-                responsive={false}
-                style={{ display: 'block', width: '728px', height: '90px' }}
-              />
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   );

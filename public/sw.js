@@ -3,18 +3,27 @@ const urlsToCache = [
   '/',
   '/manifest.json',
   '/favicon-32.svg',
-  '/favicon.ico',
   '/icon-192x192.png',
   '/icon-512x512.png',
-  '/dailynaamjap-logo.svg'
+  '/dailynaamjap-logo.svg',
+  '/og-image.png',
+  '/styles.css'
 ];
 
-// Install event - cache resources
+// Install event - cache resources with error handling
 self.addEventListener('install', (event) => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then((cache) => {
-        return cache.addAll(urlsToCache);
+        // Cache each file individually to handle failures gracefully
+        return Promise.all(
+          urlsToCache.map(url => {
+            return cache.add(url).catch(err => {
+              console.log('Failed to cache:', url, err);
+              return Promise.resolve(); // Continue with other files
+            });
+          })
+        );
       })
   );
 });

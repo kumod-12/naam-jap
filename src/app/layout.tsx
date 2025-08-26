@@ -3,6 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import ThemeProvider from '@/components/ThemeProvider';
+import GoogleAnalytics from '@/components/GoogleAnalytics';
+import AdSenseScript from '@/components/AdSenseScript';
+import BottomStickyAd from '@/components/BottomStickyAd';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -86,45 +89,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-S9Z26PS6QV"></script>
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-S9Z26PS6QV');
-            `,
-          }}
-        />
         
-        {/* Google AdSense */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2243677965278567" crossOrigin="anonymous"></script>
         
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `
-              (function() {
-                try {
-                  const savedTheme = localStorage.getItem('theme');
-                  if (savedTheme) {
-                    if (savedTheme === 'dark') {
-                      document.documentElement.classList.add('dark');
-                    }
-                  } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-                    document.documentElement.classList.add('dark');
-                  }
-                } catch (e) {}
-              })();
-            `,
-          }}
-        />
         <link rel="stylesheet" href="/styles.css" />
         <link rel="icon" href="/favicon-32.svg" type="image/svg+xml" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#f97316" />
+        <meta name="mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="apple-mobile-web-app-title" content="Daily Naam Jap" />
@@ -139,8 +111,12 @@ export default function RootLayout({
           backgroundColor: '#ffffff',
           color: '#171717',
           minHeight: '100vh',
+          paddingBottom: '100px',
         }}
+        suppressHydrationWarning={true}
       >
+        <GoogleAnalytics />
+        <AdSenseScript />
         <ThemeProvider />
         {children}
         <footer className="bg-gray-100 dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-4 mt-auto">
@@ -150,6 +126,7 @@ export default function RootLayout({
             </p>
           </div>
         </footer>
+        <BottomStickyAd />
         <Analytics />
         <SpeedInsights />
       </body>
