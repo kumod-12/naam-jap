@@ -3,7 +3,6 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import ThemeProvider from '@/components/ThemeProvider';
-import BottomFixedAd from '@/components/BottomFixedAd';
 import "./globals.css";
 
 const geistSans = Geist({
@@ -140,7 +139,6 @@ export default function RootLayout({
           backgroundColor: '#ffffff',
           color: '#171717',
           minHeight: '100vh',
-          paddingBottom: '70px' /* Space for fixed bottom ad */
         }}
       >
         <ThemeProvider />
@@ -152,7 +150,6 @@ export default function RootLayout({
             </p>
           </div>
         </footer>
-        <BottomFixedAd />
         <Analytics />
         <SpeedInsights />
       </body>

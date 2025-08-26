@@ -965,21 +965,23 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
               {language === 'hindi' ? 'विज्ञापन' : 'Advertisement'}
             </div>
             {/* Mobile Ad - 320x50 */}
-            <div className="lg:hidden">
+            <div className="lg:hidden" style={{ width: '320px', height: '50px', margin: '0 auto', overflow: 'hidden' }}>
               <AdBanner 
                 adSlot="9592063681"
                 width="320px" 
                 height="50px"
                 responsive={false}
+                style={{ display: 'block', width: '320px', height: '50px' }}
               />
             </div>
             {/* Desktop Ad - 728x90 */}
-            <div className="hidden lg:block">
+            <div className="hidden lg:block" style={{ width: '728px', height: '90px', margin: '0 auto', overflow: 'hidden' }}>
               <AdBanner 
                 adSlot="5130074497"
                 width="728px" 
                 height="90px"
                 responsive={false}
+                style={{ display: 'block', width: '728px', height: '90px' }}
               />
             </div>
           </div>
