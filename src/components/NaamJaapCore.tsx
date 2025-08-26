@@ -958,20 +958,20 @@ const NaamJaapCore: React.FC<NaamJaapCoreProps> = ({
           />
         )}
 
-        {/* Bottom Sticky Ad - Responsive */}
-        <div className="fixed bottom-0 left-0 right-0 z-30 lg:relative lg:mt-8">
+        {/* Bottom Ad - Responsive */}
+        <div className="relative mt-8">
           <div className={`${cardClasses} shadow-lg border-t border-gray-200 dark:border-gray-700 p-3 text-center lg:max-w-2xl lg:mx-auto lg:rounded-xl lg:border`}>
             <div className="text-xs text-gray-500 dark:text-gray-400 mb-1">
               {language === 'hindi' ? 'विज्ञापन' : 'Advertisement'}
             </div>
-            {/* Mobile Ad - 320x50 */}
-            <div className="lg:hidden" style={{ width: '320px', height: '50px', margin: '0 auto', overflow: 'hidden' }}>
+            {/* Mobile Ad - 300x250 */}
+            <div className="lg:hidden" style={{ width: '300px', height: '250px', margin: '0 auto', overflow: 'hidden' }}>
               <AdBanner 
                 adSlot="9592063681"
-                width="320px" 
-                height="50px"
+                width="300px" 
+                height="250px"
                 responsive={false}
-                style={{ display: 'block', width: '320px', height: '50px' }}
+                style={{ display: 'block', width: '300px', height: '250px' }}
               />
             </div>
             {/* Desktop Ad - 728x90 */}
